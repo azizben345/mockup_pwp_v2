@@ -48,14 +48,26 @@ nav ul li a:hover {
 /* Main Content Styling */
 main {
     padding: 2rem;
+    padding-bottom: 4rem; /* Added padding at the bottom to make room for the footer */
     text-align: center;
 }
 
-.welcome-section {
+.welcome-section, .contact-section {
     background: white;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contact-section ul li {
+    margin: 0.5rem 0;
 }
 
 /* Form Section Styling */
@@ -103,6 +115,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
+    position: relative;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 2rem; /* Added margin to give some space from the main content */
 }
